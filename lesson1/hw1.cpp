@@ -59,7 +59,7 @@ public:
 		std::string patr = "";
 		std::size_t ex_num = 0;
 
-		while (file) {
+		while (!file.eof()) {
 
 			std::getline(file, str);
 			std::istringstream iss(str);
@@ -176,6 +176,7 @@ int main()
 	}
 
 	PhoneBook book(file);
+	file.close();
 
 	std::cout << book;
 
