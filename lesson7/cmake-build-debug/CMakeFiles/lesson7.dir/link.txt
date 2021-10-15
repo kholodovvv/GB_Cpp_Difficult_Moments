@@ -1,0 +1,3 @@
+"I:\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\lesson7.dir/objects.a
+I:\msys64\mingw64\bin\ar.exe cr CMakeFiles\lesson7.dir/objects.a @CMakeFiles\lesson7.dir\objects1.rsp
+I:\msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\lesson7.dir/objects.a -Wl,--no-whole-archive -o lesson7.exe -Wl,--out-implib,liblesson7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\lesson7.dir\linklibs.rsp
